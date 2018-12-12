@@ -7,7 +7,7 @@ import java.util.Date;
 
 public abstract class Product implements Item, Comparator {
 
-  public static ArrayList<Product> products = new ArrayList();
+  private static ArrayList<Product> products = new ArrayList();
 
   private static int currentProductionNumber = 1;
   final String manufacturer = "OracleProduction";
