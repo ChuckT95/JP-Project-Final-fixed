@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>src</OriginalElement>
+  <nodes>
+    <node x="957.0" y="1095.0">src.MoviePlayerDriver</node>
+    <node x="392.25" y="212.0">src.Product</node>
+    <node x="1189.0" y="1095.0">src.AudioPlayerDriver</node>
+    <node x="1250.0" y="101.0">src.Screen</node>
+    <node x="744.0" y="1095.0">src.PlayerDriver</node>
+    <node x="0.0" y="1302.0">src.ReverseStringDriver</node>
+    <node x="1251.5" y="0.0">src.ScreenSpec</node>
+    <node x="920.0" y="0.0">src.EmployeeInfo</node>
+    <node x="852.0" y="1302.0">src.MultiMediaCollection</node>
+    <node x="0.0" y="755.0">src.MoviePlayer</node>
+    <node x="659.0" y="854.5">src.Watchamacallit</node>
+    <node x="213.0" y="1302.0">src.ProductionLineDriver</node>
+    <node x="205.0" y="1095.0">src.MonitorType</node>
+    <node x="429.0" y="1095.0">src.JP16Driver</node>
+    <node x="440.75" y="0.0">src.Item</node>
+    <node x="310.0" y="733.0">src.AudioPlayer</node>
+    <node x="0.0" y="1095.0">src.ItemType</node>
+    <node x="426.0" y="1302.0">src.ProductMain</node>
+    <node x="35.5" y="389.0">src.MultimediaControl</node>
+    <node x="639.0" y="1302.0">src.ScreenMain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="src.Watchamacallit" target="src.Product">
+      <point x="0.0" y="-37.0" />
+      <point x="767.0" y="713.0" />
+      <point x="666.4166666666667" y="713.0" />
+      <point x="109.66666666666669" y="235.5" />
+    </edge>
+    <edge source="src.Screen" target="src.ScreenSpec">
+      <point x="0.0" y="-114.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="src.MoviePlayer" target="src.MultimediaControl">
+      <point x="-72.5" y="-136.5" />
+      <point x="-37.0" y="58.5" />
+    </edge>
+    <edge source="src.MoviePlayer" target="src.Product">
+      <point x="72.5" y="-136.5" />
+      <point x="217.5" y="713.0" />
+      <point x="447.0833333333333" y="713.0" />
+      <point x="-109.66666666666669" y="235.5" />
+    </edge>
+    <edge source="src.AudioPlayer" target="src.MultimediaControl">
+      <point x="-82.25" y="-158.5" />
+      <point x="392.25" y="703.0" />
+      <point x="146.5" y="703.0" />
+      <point x="37.0" y="58.5" />
+    </edge>
+    <edge source="src.AudioPlayer" target="src.Product">
+      <point x="82.25" y="-158.5" />
+      <point x="0.0" y="235.5" />
+    </edge>
+    <edge source="src.Product" target="src.Item">
+      <point x="0.0" y="-235.5" />
+      <point x="0.0" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6844512195121951" x="265.0" y="269.28285077951" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
