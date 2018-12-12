@@ -7,7 +7,7 @@ public class EmployeeInfo {
 
   private String deptId;
   private static Pattern p = Pattern.compile("\\b([A-Z]+[a-z]{3}+\\d{2})\\b");
-  private static Scanner in;
+  private static Scanner in = new Scanner(System.in);
   private static String reverse = "";
 
 
@@ -26,9 +26,9 @@ public class EmployeeInfo {
   //Uses scanner.next() to get input ending in space or enter
   public String getDeptId() { //Uses scanner.next() to get input ending in space or enter
     //Uses scanner.next() to get input ending in space or enter
-    in = new Scanner(System.in);
-    System.out.print("please enter Department ID : ");
-    String string = in.next();
+
+    System.out.print("Please enter the department ID:");
+    String string = in.nextLine();
     return string;
   }
 
@@ -94,9 +94,8 @@ public class EmployeeInfo {
   // takes user input to get name, and returns it as a string
   private String inputName() {
     String nameInput;
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Please enter your first and last name: ");
-    nameInput = scanner.nextLine();
+    System.out.print("Please enter your first and last name:");
+    nameInput = in.nextLine();
     return nameInput;
   }
 
@@ -121,7 +120,7 @@ public class EmployeeInfo {
 
   @Override
   public String toString() {
-    return "Code : " + code + "\n"
-        + "Department ID : " + reverseString(deptId) + "\n";
+    return "Employee Code : " + code + "\n"
+        + "Department Number : " + reverseString(deptId) + "\n";
   }
 }
